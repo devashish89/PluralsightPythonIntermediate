@@ -1,0 +1,113 @@
+######### set WORKON_HOME in windows environment variables == "C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject\"#############
+########### these below commands are in cmd.exe ##############################
+C:\Users\dnigam>cd C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject
+
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>pip install virtualenvwrapper-win
+Requirement already satisfied: virtualenvwrapper-win in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (1.2.6)
+Requirement already satisfied: virtualenv in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from virtualenvwrapper-win) (20.0.18)
+Requirement already satisfied: appdirs<2,>=1.4.3 in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from virtualenv->virtualenvwrapper-win) (1.4.3)
+Requirement already satisfied: filelock<4,>=3.0.0 in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from virtualenv->virtualenvwrapper-win) (3.0.10)
+Requirement already satisfied: distlib<1,>=0.3.0 in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from virtualenv->virtualenvwrapper-win) (0.3.0)
+Requirement already satisfied: six<2,>=1.9.0 in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from virtualenv->virtualenvwrapper-win) (1.12.0)
+Requirement already satisfied: importlib-metadata<2,>=0.12; python_version < "3.8" in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from virtualenv->virtualenvwrapper-win) (0.23)
+Requirement already satisfied: zipp>=0.5 in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from importlib-metadata<2,>=0.12; python_version < "3.8"->virtualenv->virtualenvwrapper-win) (0.6.0)
+Requirement already satisfied: more-itertools in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from zipp>=0.5->importlib-metadata<2,>=0.12; python_version < "3.8"->virtualenv->virtualenvwrapper-win) (4.3.0)
+
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>pip show virtualenvwrapper-win
+Name: virtualenvwrapper-win
+Version: 1.2.6
+Summary: Port of Doug Hellmann's virtualenvwrapper to Windows batch scripts
+Home-page: https://github.com/davidmarble/virtualenvwrapper-win/
+Author: David Marble
+Author-email: davidmarble@gmail.com
+License: BSD 3-clause
+Location: c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages
+Requires: virtualenv
+Required-by:
+
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>lsvirtualenv
+
+dir /b /ad "C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject\"
+==============================================================================
+colleague
+virt
+
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>
+
+#### list all virtual environments ##########
+Microsoft Windows [Version 10.0.18363.778]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\dnigam>cd C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject
+
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>workon
+
+Pass a name to activate one of the following virtualenvs:
+==============================================================================
+colleague
+virt
+
+### activate particular virtual environment ######
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>workon colleague
+
+## deactivate the virtual environment colleague###########
+(colleague) C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>deactivate
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>
+
+#### create new virtual environment using below comand ######
+
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>mkvirtualenv dummy
+created virtual environment CPython3.7.1.final.0-64 in 937ms
+  creator CPython3Windows(dest=C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject\dummy, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=C:\Users\dnigam\AppData\Local\pypa\virtualenv\seed-app-data\v1.0.1)
+  activators BashActivator,BatchActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+
+(dummy) C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>workon
+
+Pass a name to activate one of the following virtualenvs:
+==============================================================================
+colleague
+dummy
+virt
+
+(dummy) C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>
+
+### create new project with new venv #################################
+(virt) C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>mkproject new_project
+
+    ERROR: set environment variable PROJECT_HOME to the directory where projects are stored.
+
+ ## after setting windows environment variable PROJECT_HOME #################################
+
+
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>cd new_project
+
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject\new_project>workon
+
+Pass a name to activate one of the following virtualenvs:
+==============================================================================
+colleague
+dummy
+new_project
+virt
+
+#### delete virtual environment using rmvirtualenv <virtualenv_name> #################################
+
+
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>workon
+
+Pass a name to activate one of the following virtualenvs:
+==============================================================================
+colleague
+dummy
+dummy1
+new_project
+virt
+
+
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>rmvirtualenv dummy1
+
+    Deleted C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject\\dummy1
+
+
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>

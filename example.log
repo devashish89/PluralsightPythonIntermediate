@@ -1,0 +1,3 @@
+INFO:root:Running function: add with args: (1, 2, 3, 4) and kwargs: {}
+INFO:root:Running function: sub with args: (5, 2) and kwargs: {}
+INFO:root:Running function: person_details with args: () and kwargs: {'name': 'Deva', 'age': 30}

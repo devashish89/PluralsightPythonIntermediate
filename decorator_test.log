@@ -1,0 +1,29 @@
+
+INFO:root:executing function: wrapper
+INFO:root:executing function: wrapper with arguments: ('John',) and keyword arguments: {}
+INFO:root:executing function: wrapper with arguments: ('John',) and keyword arguments: {}
+INFO:root:executing function: hello with arguments: ('John',) and keyword arguments: {}
+INFO:root:executing function: wrapper with arguments: ('John',) and keyword arguments: {}
+INFO:root:executing function: wrapper_timer with arguments: ('John',) and keyword arguments: {}
+INFO:root:executing function: wrapper_timer with arguments: ('Danny', 22) and keyword arguments: {}
+INFO:root:executing function: wrapper_timer with arguments: ('John',) and keyword arguments: {}
+INFO:root:executing function: wrapper_timer with arguments: ('Danny', 22) and keyword arguments: {}
+INFO:root:executing function: wrapper_timer with arguments: ('John',) and keyword arguments: {}
+INFO:root:executing function: wrapper_timer with arguments: ('Danny', 22) and keyword arguments: {}
+INFO:root:executing function: person_details with arguments: ('Chintu', 10) and keyword arguments: {}
+INFO:root:executing function: wrapper_timer with arguments: ('John',) and keyword arguments: {}
+INFO:root:executing function: wrapper_timer with arguments: ('Danny', 22) and keyword arguments: {}
+INFO:root:executing function: person_details with arguments: ('Chintu', 10) and keyword arguments: {}
+INFO:root:executing function: wrapper_timer with arguments: ('John',) and keyword arguments: {}
+INFO:root:executing function: wrapper_timer with arguments: ('Danny', 22) and keyword arguments: {}
+INFO:root:executing function: person_details with arguments: ('Chintu', 10) and keyword arguments: {}
+INFO:root:executing function: wrapper_timer with arguments: ('John',) and keyword arguments: {}
+INFO:root:executing function: wrapper_timer with arguments: ('Danny', 22) and keyword arguments: {}
+INFO:root:executing function: person_details with arguments: ('Chintu', 10) and keyword arguments: {}
+INFO:root:executing function: say_hello with arguments: ('Rinky',) and keyword arguments: {}
+INFO:root:executing function: employee_info with arguments: ('Ram', 40, 'HR') and keyword arguments: {}
+INFO:root:executing function: wrapper_timer with arguments: ('John',) and keyword arguments: {}
+INFO:root:executing function: wrapper_timer with arguments: ('Danny', 22) and keyword arguments: {}
+INFO:root:executing function: person_details with arguments: ('Chintu', 10) and keyword arguments: {}
+INFO:root:executing function: say_hello with arguments: ('Rinky',) and keyword arguments: {}
+INFO:root:executing function: employee_info with arguments: ('Ram', 40, 'HR') and keyword arguments: {}

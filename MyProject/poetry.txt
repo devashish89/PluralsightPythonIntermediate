@@ -1,0 +1,152 @@
+################################ Poetry is much better than pipenv pacakge#################################################################
+
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>pip install poetry
+Collecting poetry
+  Downloading poetry-1.0.5-py2.py3-none-any.whl (220 kB)
+     |████████████████████████████████| 220 kB 1.1 MB/s
+Collecting jsonschema<4.0,>=3.1
+  Downloading jsonschema-3.2.0-py2.py3-none-any.whl (56 kB)
+     |████████████████████████████████| 56 kB 3.8 MB/s
+Collecting shellingham<2.0,>=1.1
+  Downloading shellingham-1.3.2-py2.py3-none-any.whl (11 kB)
+Collecting importlib-metadata<1.2.0,>=1.1.3; python_version < "3.8"
+  Downloading importlib_metadata-1.1.3-py2.py3-none-any.whl (29 kB)
+Collecting cachecontrol[filecache]<0.13.0,>=0.12.4
+  Downloading CacheControl-0.12.6-py2.py3-none-any.whl (19 kB)
+Requirement already satisfied: pkginfo<2.0,>=1.4 in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from poetry) (1.4.2)
+Requirement already satisfied: pyparsing<3.0,>=2.2 in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from poetry) (2.3.0)
+Collecting cachy<0.4.0,>=0.3.0
+  Downloading cachy-0.3.0-py2.py3-none-any.whl (20 kB)
+Collecting pyrsistent<0.15.0,>=0.14.2
+  Downloading pyrsistent-0.14.11.tar.gz (104 kB)
+     |████████████████████████████████| 104 kB 1.7 MB/s
+Collecting cleo<0.8.0,>=0.7.6
+  Downloading cleo-0.7.6-py2.py3-none-any.whl (21 kB)
+Requirement already satisfied: html5lib<2.0,>=1.0 in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from poetry) (1.0.1)
+Collecting requests-toolbelt<0.9.0,>=0.8.0
+  Downloading requests_toolbelt-0.8.0-py2.py3-none-any.whl (54 kB)
+     |████████████████████████████████| 54 kB 1.2 MB/s
+Requirement already satisfied: requests<3.0,>=2.18 in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from poetry) (2.21.0)
+Collecting pexpect<5.0.0,>=4.7.0
+  Downloading pexpect-4.8.0-py2.py3-none-any.whl (59 kB)
+     |████████████████████████████████| 59 kB 218 kB/s
+Collecting tomlkit<0.6.0,>=0.5.11
+  Downloading tomlkit-0.5.11-py2.py3-none-any.whl (31 kB)
+Collecting keyring<21.0.0,>=20.0.1; python_version >= "3.5" and python_version < "4.0"
+  Downloading keyring-20.0.1-py2.py3-none-any.whl (31 kB)
+Collecting clikit<0.5.0,>=0.4.2
+  Downloading clikit-0.4.3-py2.py3-none-any.whl (88 kB)
+     |████████████████████████████████| 88 kB 1.1 MB/s
+Requirement already satisfied: six>=1.11.0 in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from jsonschema<4.0,>=3.1->poetry) (1.12.0)
+Requirement already satisfied: attrs>=17.4.0 in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from jsonschema<4.0,>=3.1->poetry) (18.2.0)
+Requirement already satisfied: setuptools in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from jsonschema<4.0,>=3.1->poetry) (40.6.3)
+Requirement already satisfied: zipp>=0.5 in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from importlib-metadata<1.2.0,>=1.1.3; python_version < "3.8"->poetry) (0.6.0)
+Requirement already satisfied: msgpack>=0.5.2 in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from cachecontrol[filecache]<0.13.0,>=0.12.4->poetry) (0.5.6)
+Collecting lockfile>=0.9; extra == "filecache"
+  Downloading lockfile-0.12.2-py2.py3-none-any.whl (13 kB)
+Requirement already satisfied: webencodings in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from html5lib<2.0,>=1.0->poetry) (0.5.1)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from requests<3.0,>=2.18->poetry) (2018.11.29)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from requests<3.0,>=2.18->poetry) (3.0.4)
+Requirement already satisfied: idna<2.9,>=2.5 in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from requests<3.0,>=2.18->poetry) (2.8)
+Requirement already satisfied: urllib3<1.25,>=1.21.1 in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from requests<3.0,>=2.18->poetry) (1.24.1)
+Collecting ptyprocess>=0.5
+  Downloading ptyprocess-0.6.0-py2.py3-none-any.whl (39 kB)
+Collecting pywin32-ctypes!=0.1.0,!=0.1.1; sys_platform == "win32"
+  Downloading pywin32_ctypes-0.2.0-py2.py3-none-any.whl (28 kB)
+Collecting pylev<2.0,>=1.3
+  Downloading pylev-1.3.0-py2.py3-none-any.whl (4.9 kB)
+Collecting pastel<0.3.0,>=0.2.0
+  Downloading pastel-0.2.0-py2.py3-none-any.whl (6.0 kB)
+Requirement already satisfied: more-itertools in c:\users\dnigam\appdata\local\continuum\anaconda3\lib\site-packages (from zipp>=0.5->importlib-metadata<1.2.0,>=1.1.3; python_version < "3.8"->poetry) (4.3.0)
+Building wheels for collected packages: pyrsistent
+  Building wheel for pyrsistent (setup.py) ... done
+  Created wheel for pyrsistent: filename=pyrsistent-0.14.11-cp37-cp37m-win_amd64.whl size=73648 sha256=c05606b912d54c9dbfd8a95cb74785c68df2f3490d553b34a2b16e9fd3a1880a
+  Stored in directory: c:\users\dnigam\appdata\local\pip\cache\wheels\20\78\0a\4d5c19e3868f7dd8df2fa8c2933f01ba28948a3f0b10faccf4
+Successfully built pyrsistent
+ERROR: spyder 3.3.2 requires pyqt5<5.10; python_version >= "3", which is not installed.
+Installing collected packages: pyrsistent, importlib-metadata, jsonschema, shellingham, lockfile, cachecontrol, cachy, pylev, pastel, clikit, cleo, requests-toolbelt, ptyprocess, pexpect, tomlkit, pywin32-ctypes, keyring, poetry
+  Attempting uninstall: importlib-metadata
+    Found existing installation: importlib-metadata 0.23
+    Uninstalling importlib-metadata-0.23:
+      Successfully uninstalled importlib-metadata-0.23
+  Attempting uninstall: jsonschema
+    Found existing installation: jsonschema 2.6.0
+    Uninstalling jsonschema-2.6.0:
+      Successfully uninstalled jsonschema-2.6.0
+  Attempting uninstall: keyring
+    Found existing installation: keyring 17.0.0
+    Uninstalling keyring-17.0.0:
+      Successfully uninstalled keyring-17.0.0
+Successfully installed cachecontrol-0.12.6 cachy-0.3.0 cleo-0.7.6 clikit-0.4.3 importlib-metadata-1.1.3 jsonschema-3.2.0 keyring-20.0.1 lockfile-0.12.2 pastel-0.2.0 pexpect-4.8.0 poetry-1.0.5 ptyprocess-0.6.0 pylev-1.3.0 pyrsistent-0.14.11 pywin32-ctypes-0.2.0 requests-toolbelt-0.8.0 shellingham-1.3.2 tomlkit-0.5.11
+
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>poetry new project1 #######created new project
+Created package project1 in project1
+
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>
+
+
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>poetry add urllib3 opencv-python
+
+[RuntimeError]
+Poetry could not find a pyproject.toml file in C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject or its parents
+
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject>cd project1
+
+############## installing dependencies using poetry ###################
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject\project1>poetry add urllib3 opencv-python
+Creating virtualenv project1-gjh8gJJo-py3.7 in C:\Users\dnigam\AppData\Local\pypoetry\Cache\virtualenvs
+Using version ^1.25.9 for urllib3
+Using version ^4.2.0 for opencv-python
+
+Updating dependencies
+Resolving dependencies...
+
+Writing lock file
+
+
+Package operations: 16 installs, 0 updates, 0 removals
+
+  - Installing zipp (3.1.0)
+  - Installing importlib-metadata (1.6.0)
+  - Installing pyparsing (2.4.7)
+  - Installing six (1.14.0)
+  - Installing atomicwrites (1.4.0)
+  - Installing attrs (19.3.0)
+  - Installing colorama (0.4.3)
+  - Installing more-itertools (8.2.0)
+  - Installing numpy (1.18.3)
+  - Installing packaging (20.3)
+  - Installing pluggy (0.13.1)
+  - Installing py (1.8.1)
+  - Installing wcwidth (0.1.9)
+  - Installing opencv-python (4.2.0.34)
+  - Installing pytest (5.4.1)
+  - Installing urllib3 (1.25.9)
+
+#### way1: run python code/module ####################################
+
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject\project1>poetry run python ../ReadWikipediaPage.py
+
+### way 2: run python code/module ################
+
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject\project1>poetry shell
+Spawning shell within C:\Users\dnigam\AppData\Local\pypoetry\Cache\virtualenvs\project1-gjh8gJJo-py3.7
+Microsoft Windows [Version 10.0.18363.778]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject\project1>python ../ReadWikipediaPage.py
+</div>
+
+
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"9.332","walltime":"10.306","ppvisitednodes":{"value":49140,"limit":1000000},"postexpandincludesize":{"value":1955627,"limit":2097152},"templateargumentsize":{"value":55541,"limit":2097152},"expansiondepth":{"value":28,"limit":40},"expensivefunctioncount":{"value":21,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":3835451,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00% 8514.611      1 -total"," 34.08% 2902.107    561 Template:Cite_web"," 22.22% 1892.008    329 Template:Cite_news","  5.49%  467.544      1 Template:2019–20_coronavirus_pandemic_data","  3.64%  309.806     43 Template:Cite_journal","  2.78%  236.972     48 Template:Efn","  2.71%  230.493      1 Template:Twitter","  2.54%  216.053      1 Template:Infobox_pandemic","  2.45%  208.803      1 Template:Infobox","  1.82%  154.597      1 Template:WikidataCheck"]},"scribunto":{"limitreport-timeusage":{"value":"5.491","limit":"10.000"},"limitreport-memusage":{"value":19066223,"limit":52428800},"limitreport-profile":[["dataWrapper \u003Cmw.lua:661\u003E","720","12.7"],["?","620","11.0"],["Scribunto_LuaSandboxCallback::match","540","9.5"],["recursiveClone \u003CmwInit.lua:41\u003E","480","8.5"],["Scribunto_LuaSandboxCallback::gsub","400","7.1"],["Scribunto_LuaSandboxCallback::find","320","5.7"],["Scribunto_LuaSandboxCallback::callParserFunction","280","4.9"],["\u003Cmw.lua:683\u003E","140","2.5"],["chunk \u003CModule:Citation/CS1\u003E","120","2.1"],["type","120","2.1"],["[others]","1920","33.9"]]},"cachereport":{"origin":"mw1274","timestamp":"20200501181847","ttl":2592000,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"2019\u201320 coronavirus pandemic","url":"https:\/\/en.wikipedia.org\/wiki\/2019%E2%80%9320_coronavirus_pandemic","sameAs":"http:\/\/www.wikidata.org\/entity\/Q81068910","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q81068910","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2020-01-05T15:58:49Z","dateModified":"2020-05-01T15:13:31Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/3\/3b\/COVID-19_Outbreak_World_Map_per_Capita.svg","headline":"ongoing pandemic of COVID-19"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":235,"wgHostname":"mw1267"});});</script></body></html>
+
+Traceback (most recent call last):
+  File "../ReadWikipediaPage.py", line 9, in <module>
+    cv2.imshow("Pip Commands", img)
+cv2.error: OpenCV(4.2.0) C:\projects\opencv-python\opencv\modules\highgui\src\window.cpp:376: error: (-215:Assertion failed) size.width>0 && size.height>0 in function 'cv::imshow'
+
+
+C:\Users\dnigam\PycharmProjects\PluralsightPythonIntermediate\MyProject\project1>exit()
+
